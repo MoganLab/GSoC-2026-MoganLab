@@ -1,19 +1,27 @@
 # GSoC 2026 Project Ideas with MoganLab
 
 ## Introduction
-Brief intro about MoganLab and what students can expect.
+MoganLab is a nonprofit organization dedicated to building innovative, open-source tools for science and education. Our flagship project, **Mogan**, is a modern, structured editor designed for scientific and technical writing, forked from GNU TeXmacs.
+
+For GSoC 2026, we offer exciting projects that combine deep technical challenges with real-world impact. Contributors will work on the frontier of interactive scientific software, gain mentorship from experienced developers, and become part of our global community. We look forward to collaborating with passionate students to push the boundaries of what's possible in open-source scientific tools.
 
 ## Project Ideas
 
-### 1. Project Title: Port Mogan Editor Core to the Web
-- **Description:** The main goal is to make the core editing functionality of Mogan run in a modern web browser using technologies like WebAssembly.
-- **Expected Outcomes:** A functional web-based prototype that can open .tm files and perform basic editing.
-- **Recommended Skills:** C++, JavaScript/TypeScript, WebAssembly, interest in editors.
+### 1. Project Title: Web-Based Collaborative Editing Core
+- **Description:** Mogan currently operates as a powerful desktop application. This project aims to bring its core editing experience to the web. The main technical challenge is to port the essential editing engine to run efficiently in a modern browser using technologies like WebAssembly, enabling real-time collaborative writing and editing sessions.
+- **Expected Outcomes:** A functional web-based prototype capable of opening standard `.tm` files, rendering document structure, and performing basic collaborative editing operations (e.g., concurrent text editing) in a browser. This will serve as the foundational backend for future collaborative features.
+- **Recommended Skills:** Strong C++ (for understanding and porting core logic), proficiency in JavaScript/TypeScript and modern web frameworks, familiarity or strong interest in WebAssembly (Emscripten). Experience with real-time communication (WebSockets) is a plus.
 - **Difficulty:** High
-- **Potential Mentors:** [Mentor Name/Email]
-- **Reference:** [Link to relevant code or discussion]
+- **Potential Mentors:** [Mentor Name/Email @mogan.app]
+- **Reference:** [Link to the Mogan core repository and relevant architecture documentation]
 
-### 2. Project Title: [Another well-scoped project]
-- **Description:** ...
-- **Expected Outcomes:** ...
-- **Recommended Skills:** ...
+### 2. Project Title: Enhanced Julia Plugin with Virtual Environment Support
+- **Description:** Mogan excels at integrating computational code within documents. This project focuses on deeply enhancing its support for the Julia programming language. The goal is to build a robust plugin that not only executes Julia code but also seamlessly manages Julia project environments (`Project.toml`) and packages, allowing users to reproduce computations reliably.
+- **Expected Outcomes:**
+    1.  A fully functional Julia plugin within Mogan that can execute code snippets and scripts.
+    2.  Integration with Julia's package manager (Pkg) to activate and manage project-specific virtual environments from within the editor.
+    3.  Basic support for resolving and loading dependencies specified in a `Project.toml` file.
+- **Recommended Skills:** Proficiency in the Julia programming language, understanding of Julia's package and project management system. Experience with C++ or Lua (for plugin integration with Mogan's API) is beneficial.
+- **Difficulty:** Medium
+- **Potential Mentors:** [Mentor Name/Email @mogan.app]
+- **Reference:** [Link to existing plugin examples in Mogan and Julia's Pkg documentation]

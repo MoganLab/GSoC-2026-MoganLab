@@ -24,5 +24,5 @@ For GSoC 2026, we offer exciting projects that combine deep technical challenges
     4.  Support copy and paste between Mogan to Julia. For example, one can directly copy a matrix from the math mode in mogan to Julia Session for computation and vice versa.
 - **Recommended Skills:** Proficiency in the Julia programming language, understanding of Julia's package and project management system. Experience with C++ and Scheme (for plugin integration with Mogan's API) is beneficial.
 - **Difficulty:** Medium
-- **Potential Mentors:** [Darcy Shen/Email da@liii.pro]
+- **Potential Mentors:** [Jack Li/Email yansong@liii.pro]
 - **Reference:** [https://github.com/mgubi/tm-julia]

@@ -1,3 +1,5 @@
+> **Prerequisites:** To be eligible for GSoC 2026 with MoganLab, applicants must have **at least 2 merged Pull Requests** in the [Mogan repository](https://github.com/XmacsLabs/mogan). This requirement helps us verify your git workflow skills and ensures you are familiar with our codebase before the program begins.
+
 # GSoC 2026 Project Ideas with MoganLab
 
 ## Introduction
